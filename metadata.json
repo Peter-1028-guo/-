@@ -1,0 +1,7 @@
+{
+  "name": "SiliconFlow Voice Note",
+  "description": "A voice note application that records audio and transcribes it using the SiliconFlow API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
