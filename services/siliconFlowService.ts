@@ -5,8 +5,8 @@ const CHAT_API_URL = 'https://api.siliconflow.cn/v1/chat/completions';
 
 // Models
 const ASR_MODEL_NAME = 'TeleAI/TeleSpeechASR';
-// Using Qwen2.5-72B-Instruct as a robust default for text generation on SiliconFlow
-const TEXT_MODEL_NAME = 'Qwen/Qwen2.5-72B-Instruct'; 
+// Using DeepSeek-V3 as requested
+const TEXT_MODEL_NAME = 'deepseek-ai/DeepSeek-V3'; 
 
 export const transcribeAudio = async (
   audioBlob: Blob,
